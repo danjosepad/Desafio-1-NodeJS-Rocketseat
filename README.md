@@ -1,34 +1,61 @@
-# :clipboard: Estrutura NodeJS
 
-Modelo de estrutura para novos projetos utilizando express, eslint, prettier, nodemon e sucrase
+<h1 align="center">
+    <img alt="Desafio 1 NodeJS" title="apis" src="EstruturaNodeJS.png" width="100%" />
+</h1>
 
-### :bookmark_tabs: Resumo 
-Nesse módulo foi desenvolvida uma aplicação utilizando os conceitos estudados com todos
-os métodos de requisição(GET, POST, PUT, DELETE) e aplicando os conceitos de middlewares de forma global e local.
+<h4 align="center">
+  Desafio 1 NodeJS
+</h4>
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/danjosepad/Desafio-1-NodeJS-Rocketseat">
 
-### :clipboard: Como usar
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/danjosepad/Desafio-1-NodeJS-Rocketseat">
+  
+  <a href="https://github.com/danjosepad/Desafio-1-NodeJS-Rocketseat/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/danjosepad/Desafio-1-NodeJS-Rocketseat">
+  </a>
+
+  <a href="https://github.com/danjosepad/Desafio-1-NodeJS-Rocketseat/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/danjosepad/Desafio-1-NodeJS-Rocketseat">
+  </a>
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+</p>
+
+<p align="center">
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#clipboard-documentação">Documentação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="#book-como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
+
+<br>
+
+<p align="center">
+  <img alt="Frontend" src="rocketseat.png" width="100%">
+</p>
+
+## :rocket: Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Node.js](https://nodejs.org/en/)
+
+## 💻 Projeto
+
+Nesse módulo foi desenvolvida uma aplicação utilizando os conceitos estudados com todos os métodos de requisição(GET, POST, PUT, DELETE) e aplicando os conceitos de middlewares de forma global e local.
+
+### :book: Como usar
 
 ```javascript
 //Dentro da pasta rode:
 yarn start
 ```
+## :clipboard: Documentação
 
-### Rotas
+Para acessar a documentação dessa API, [Clique aqui](https://app.swaggerhub.com/apis-docs/danielpadilha/1.0-Conceitos_NodeJS/1.0.0)
 
-A URL base para acesso é: [http://localhost:3333](http://localhost:3333)
+## :memo: Licença
 
-```javascript
-GET /projects  // Lista todos os projetos existentes
-POST /projects // Cria um novo projeto
-PUT /projects/:id // Altera o titulo de um projeto existente
-DELETE /projects/:id // Deleta um projeto
-POST /projects/:id/tasks // Cria uma tarefa em um projeto existente
-```
-
-### Middlewares
-
-Neste projeto, o middleware existente faz a validação de projetos, retornando erro caso um projeto não exista ao tentar realizar uma ação 
-
-### Validação de Campos
-
-Neste projeto, foi utilizada a dependência [Yup](https://github.com/jquense/yup) para validar os parametros das requisições
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
