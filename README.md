@@ -1,6 +1,6 @@
 
 <h1 align="center">
-    <img alt="Desafio 1 NodeJS" title="apis" src="EstruturaNodeJS.png" width="400px" />
+    <img alt="Desafio 1 NodeJS" title="apis" src="desafioNodeJS.png" width="500px" />
 </h1>
 
 <h4 align="center">
@@ -33,7 +33,7 @@
 <br>
 
 <p align="center">
-  <img alt="Frontend" src="rocketseat.png" width="100%">
+  <img alt="Frontend" src="rocketseat.png" width="300px">
 </p>
 
 ## :rocket: Tecnologias
