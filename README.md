@@ -1,6 +1,6 @@
 
 <h1 align="center">
-    <img alt="Desafio 1 NodeJS" title="apis" src="EstruturaNodeJS.png" width="100%" />
+    <img alt="Desafio 1 NodeJS" title="apis" src="EstruturaNodeJS.png" width="400px" />
 </h1>
 
 <h4 align="center">
